@@ -1,0 +1,11 @@
+asm_count.perl
+______________
+
+
+This is a perl script that will record the frequency of assembly instructions
+in a C program.
+
+It accomplishes this with the use of regular expressions and a hash table.
+
+It performs this action under all optimization levels and prints out the 
+frequency (as a percentage and as a raw count).
